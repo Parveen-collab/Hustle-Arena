@@ -26,10 +26,13 @@ export default function Header() {
             </svg>
           </button>
 
-          <nav className={`hidden md:flex items-center space-x-8`}>
+          <nav className={`hidden md:flex items-center space-x-6`}>
             <Link href="/" className="text-gray-700 hover:text-blue-600 font-medium transition">Home</Link>
-            <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium transition">About Us</Link>
-            <Link href="/products" className="text-gray-700 hover:text-blue-600 font-medium transition">Products</Link>
+            <Link href="/features" className="text-gray-700 hover:text-blue-600 font-medium transition">Features</Link>
+            <Link href="/services" className="text-gray-700 hover:text-blue-600 font-medium transition">Services</Link>
+            <Link href="/shop" className="text-gray-700 hover:text-blue-600 font-medium transition">Shop</Link>
+            <Link href="/testimonials" className="text-gray-700 hover:text-blue-600 font-medium transition">Testimonials</Link>
+            <Link href="/about" className="text-gray-700 hover:text-blue-600 font-medium transition">About</Link>
             <Link href="/contact" className="text-gray-700 hover:text-blue-600 font-medium transition">Contact</Link>
             <Link
               href="/contact"
@@ -43,8 +46,11 @@ export default function Header() {
         {isMenuOpen && (
           <nav className="md:hidden pb-4 space-y-2">
             <Link href="/" className="block text-gray-700 hover:text-blue-600 py-2 font-medium">Home</Link>
-            <Link href="/about" className="block text-gray-700 hover:text-blue-600 py-2 font-medium">About Us</Link>
-            <Link href="/products" className="block text-gray-700 hover:text-blue-600 py-2 font-medium">Products</Link>
+            <Link href="/features" className="block text-gray-700 hover:text-blue-600 py-2 font-medium">Features</Link>
+            <Link href="/services" className="block text-gray-700 hover:text-blue-600 py-2 font-medium">Services</Link>
+            <Link href="/shop" className="block text-gray-700 hover:text-blue-600 py-2 font-medium">Shop</Link>
+            <Link href="/testimonials" className="block text-gray-700 hover:text-blue-600 py-2 font-medium">Testimonials</Link>
+            <Link href="/about" className="block text-gray-700 hover:text-blue-600 py-2 font-medium">About</Link>
             <Link href="/contact" className="block text-gray-700 hover:text-blue-600 py-2 font-medium">Contact</Link>
             <Link
               href="/contact"
